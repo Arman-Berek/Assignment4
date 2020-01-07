@@ -1,0 +1,36 @@
+.hover{
+    height: 200px;
+    width: 400px;
+    margin-top: 250px;
+    margin-left: 200px;
+    background-color: blue;
+    text-align: center;
+    display: inline-block;
+    font-size: x-large;
+    font-weight: bolder;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.firstButton{
+    height: 100px;
+    width: 300px;
+    background-color: red;
+}
+.secondButton{
+    height: 100px;
+    width: 300px;
+    background-color: blue;
+    margin-top: 30px;
+}
+form{
+    text-align: center;
+    background-color: azure;
+}
+.forms{
+    margin-top:20px;
+}
+#submitt{
+    height: 50px;
+    width: 100px;
+    margin-top: 15px;
+}
