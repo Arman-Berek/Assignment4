@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+
+    </head>
+    <body>
+
+        <form action="" id="myForm">
+            Input the radius of a Sphere:<br/>
+            <input id="r">
+            <button type="button" onclick="myFunction()">Submit</button>
+            <br/>
+            <p id="demo"></p>
+        </form>
+
+        <script>
+            function myFunction() {
+                var vol;
+                var rad = document.getElementById("r").value;
+                rad = Math.abs(rad);
+                vol = (4/3) * Math.PI * Math.pow(rad, 3);
+                vol = vol.toFixed(4);
+                vol = vol.toString();
+                var text = "the volume of the sphere is " + vol;
+                document.getElementById('demo').innerText = text;
+                return false;
+            }
+        </script>
+
+    </body>
+</html>
